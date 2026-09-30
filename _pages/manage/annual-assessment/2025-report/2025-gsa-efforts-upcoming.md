@@ -19,7 +19,7 @@ created: 2026-03-02
 updated: 
 exclude-changelog: true
 ---
-The following describes upcoming GSA efforts to help improve federal ICT accessiblity.
+The following describes upcoming GSA efforts to help improve federal ICT accessibility.
 
 ## Governmentwide Assessment-Related Actions
 <ul id="list-1" class="usa-icon-list maxw-full">
