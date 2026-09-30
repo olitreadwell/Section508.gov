@@ -59,26 +59,30 @@
 - `2026-09-25..29` engine failures — run.sh exited 1 with no trace; logged as
   `engine-failure` rows. Lesson: the trivial loop must leave a tried-repos row.
 - `2026-09-30` self-found — packed typo-cleanup pass across site content/docs
-  (see "Mined gaps") — outcome: attempted this run.
+  (see "Mined gaps") — outcome: pr-opened
+  https://github.com/olitreadwell/Section508.gov/pull/29 (fork PR #29, branch
+  `fix/content-typos`, base `main`, 22 spellings across 10 files: README,
+  events-iaaf-landing, buy-accessibility-in-procurement1, qasps,
+  create-math-equations, usability-testing, Section-508-tester-pd,
+  2025-gsa-efforts-upcoming, 2025-reading-view, tools-glossary-terms).
+  Lesson: keep a packed trivial PR inside `max_files_per_trivial_pr` (10) by
+  fixing the highest-value user-facing strings first; comment-only typos can
+  wait for a later pass.
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-30` typo sweep (codespell over the repo) found ~40 genuine
-  misspellings in user-facing content and docs. A packed subset was fixed this
-  run; remaining candidates for a later pass include:
-  - `_pages/manage/annual-assessment/2025-report/2025-gsa-efforts-upcoming.md`
-    and `2025-reading-view.md`: "accessiblity" -> "accessibility".
+  misspellings in user-facing content and docs. 22 of them shipped in fork PR
+  #29; remaining candidates for a later pass include:
   - `_pages/manage/annual-assessment/2023-report/2023-appx-d-entity-summary-report.html`
     and `2024-report/2024-appx-c-entity-summary-report.html`: "paremeter" ->
     "parameter" (JS comment).
   - `_pages/manage/2026-04-01-manage-budget-for-a-Section-508-program.md`:
     "provice" -> "provide".
-  - `_pages/develop/2025-09-24-usability-testing-with-people-with-disabilities.md`
-    and `_pages/tools/2020-02-27-tools-glossary-terms.md`: "Congnitive" ->
-    "Cognitive".
   - `_pages/develop/2025-09-24-recruitment-questionnaire-process.md`:
     "confortable" -> "comfortable".
   - `_includes/meta.html`: comment typos "CONONICAL" / "TWITER".
-  - `README.md`: "direcotory" -> "directory", `node-modules` -> `node_modules`.
+  - `pa11y-ci-readme.md`: "exludes" -> "excludes".
+  - `_config.yml`: "decending" -> "descending" (comment).
 - `2026-09-30` dead external links: 982 unique external links checked; ~50
   returned 404. Almost all are expired Zoom/event registration URLs on event
   pages (e.g. `gsa.zoomgov.com/meeting/register/...`) where updating the link
