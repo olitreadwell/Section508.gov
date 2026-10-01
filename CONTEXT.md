@@ -69,6 +69,18 @@
   fixing the highest-value user-facing strings first; comment-only typos can
   wait for a later pass.
 
+- `2026-10-02` self-found — packed typo pass round 2, 12 fixes across 10 files
+  (events/2025-04-03-apr-itacm; pages raci-matrix-ict-product-lifecycle,
+  recruitment-questionnaire-process, govern-section-508-for-ea-integration,
+  manage-budget-for-a-Section-508-program, playbooks/manage-play-04;
+  posts GAAD, blog-art-update, byte-009; src/assets/form-config/form.config.json)
+  — outcome: pr-opened https://github.com/olitreadwell/Section508.gov/pull/30
+  (fork PR #30, branch `fix/content-typos-pass-2`, base `main`, 1 commit
+  `7f35204`, +12/-12, fork CI Content Library Validation green, mergeable clean).
+  No file overlap with open PR #29. Lesson: the 2026-09-30 codespell candidate
+  list still held enough genuine user-facing typos for a second packed pass;
+  comment-only typos were deliberately skipped as not user-facing.
+
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-30` typo sweep (codespell over the repo) found ~40 genuine
   misspellings in user-facing content and docs. 22 of them shipped in fork PR
@@ -77,9 +89,9 @@
     and `2024-report/2024-appx-c-entity-summary-report.html`: "paremeter" ->
     "parameter" (JS comment).
   - `_pages/manage/2026-04-01-manage-budget-for-a-Section-508-program.md`:
-    "provice" -> "provide".
+    "provice" -> "provide". (shipped in fork PR #30)
   - `_pages/develop/2025-09-24-recruitment-questionnaire-process.md`:
-    "confortable" -> "comfortable".
+    "confortable" -> "comfortable". (shipped in fork PR #30)
   - `_includes/meta.html`: comment typos "CONONICAL" / "TWITER".
   - `pa11y-ci-readme.md`: "exludes" -> "excludes".
   - `_config.yml`: "decending" -> "descending" (comment).
@@ -90,3 +102,21 @@
   replacement. No meaning-preserving trivial link fix found this cycle.
   Candidate to re-check: `http://universaldesign.ie/What-is-Universal-Design/`
   (404) — needs a verified replacement URL before touching.
+- `2026-10-02` remaining after PR #30 (verified present at upstream main
+  `10a30545`), still available for a later pass:
+  - user-facing: `_bios_iaaf/larrimore-laura.md` "Unviersity";
+    `_bios_iaaf/mcgowan-brianna.md` "Accessibilty";
+    `_pages/develop/2018-05-21-create-web-content.md` "Programing";
+    `_pages/develop/2025-09-10-design-sample-personas.md` " upport" (line has
+    pre-existing trailing space); `_pages/training/2018-05-22-training-presentation-workshops.md`
+    "Asessment" (href filename must stay); `_pages/manage/2018-05-29-laws-policies-state.md`
+    and `laws-policies-quick-reference-guide.md` "the the"; `_events/2024-07-18-jul-usab-webinar.md`
+    "in in"; `_bios_iaaf/dearie-jessica.md` "and and";
+    `_posts/2023-05-18-blog-2023-Accessibility-Policy-Framework.md` "thier";
+    `_posts/2024-05-14-byte-000.md` "reenforcing";
+    `_pages/manage/annual-assessment/2023-report/2023-gsa-efforts-recent.md` "to to";
+    `src/assets/form-config/test.config.json` and
+    `art-checkbox-group.component.spec.ts` "leas" (test fixtures).
+  - comment-only (not user-facing, skip per trivial_fix_rules):
+    `_includes/meta.html` "CONONICAL"/"TWITER", `_config.yml` "decending",
+    annual-assessment report HTML "paremeter", `pa11y-ci-readme.md` "exludes".
