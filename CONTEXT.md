@@ -1,5 +1,5 @@
 # GSA/Section508.gov context
-> refreshed 2026-09-30 | upstream default: main @ 10a30545
+> refreshed 2026-10-03 | upstream default: main @ 05866314
 
 ## Identity & policies
 - upstream: GSA/Section508.gov, default branch `main`, primary language JavaScript
@@ -48,7 +48,8 @@
   version PRs (security updates still flow), stale dependency backlog kept small.
 
 ## Issue-area health
-- open issues: 0 (as of 2026-09-30). Open PRs: 3 (all dependabot bumps).
+- open issues: 0 (as of 2026-10-03). Upstream open PRs: 4 (#1501, #1498, #1483
+  dependabot bumps; #1500 drewnielson content). Fork open PRs: #6, #30, #31.
 - no contested/redesign signal: quiet repo, maintainers merge small fixes fast.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
@@ -80,6 +81,25 @@
   No file overlap with open PR #29. Lesson: the 2026-09-30 codespell candidate
   list still held enough genuine user-facing typos for a second packed pass;
   comment-only typos were deliberately skipped as not user-facing.
+- `2026-10-03` self-found — misspelled-CSS-class pass (ANY repo type, engine/loop.sh).
+  Method: dumped every `class="..."` token in `_pages`/`_posts`/`_includes`/
+  `_layouts`/`_events` and diffed it against the class selectors defined in
+  `node_modules/@uswds/uswds/dist/css/uswds.css` + `assets/css/*.scss` + the
+  compiled `_site/assets/css/*.css`, then kept only tokens whose intended class
+  is used correctly elsewhere in the same file/page. 4 fixes across 4 files:
+  `usa-link---external` -> `usa-link--external` (acr-library),
+  `usa-link-external` -> `usa-link--external` (buy-understand-exceptions),
+  `usa-process-list__headinsg` -> `usa-process-list__heading` (govern-ccb),
+  `pring-border` -> `print-border` (2025 summary-reports-by-agency). Two of the
+  four were `usa-link--external` (missing launch icon + missing "External, opens
+  in a new tab." screen-reader announcement). Outcome: pr-opened
+  https://github.com/olitreadwell/Section508.gov/pull/31 (fork PR #31, branch
+  `fix/external-link-class`, base `main`, 1 commit `3885ec63`, +4/-4, fork CI
+  Content Library Validation green, mergeStateStatus clean, non-draft).
+  Lesson: `_events/events-iaaf-landing.md` has 16 `usa-link--enternal` but they
+  sit inside a `{% comment %}`/`{% endcomment %}` block (lines 43-201), so they
+  are NOT rendered/user-facing and were deliberately left alone — check for
+  Liquid comment blocks before treating source content as user-facing.
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-30` typo sweep (codespell over the repo) found ~40 genuine
@@ -120,3 +140,19 @@
   - comment-only (not user-facing, skip per trivial_fix_rules):
     `_includes/meta.html` "CONONICAL"/"TWITER", `_config.yml` "decending",
     annual-assessment report HTML "paremeter", `pa11y-ci-readme.md` "exludes".
+
+- `2026-10-03` class-typo sweep (same run as the gap-ledger entry above): besides
+  the 4 shipped in PR #31, the token-vs-CSS diff surfaced candidates rejected as
+  not clearly verifiable or not user-facing, left for a later pass:
+  - `_events/events-iaaf-landing.md` 16x `usa-link--enternal` inside the
+    `{% comment %}` block (lines 43-201) — latent, not rendered today; fix when
+    (if) the block is re-enabled for the 2026 event rather than re-authored.
+  - `_includes/hero.html:23` `<span ...><a ...>U.S. Access Board</span></a>`
+    mis-nested (plus `href ="..."` spacing) — real HTML-validity bug on the
+    homepage, but browsers repair it and there is no visible a11y/render break,
+    so it is held for a separate markup-theme PR instead of mixing themes here.
+  - `_pages/manage/policy-framework/2023-02-10-guidance-by-policy-type-emergency-response.md`
+    `class="hover-large no-link"` (single occurrence) vs the site's `nolink`
+    class — not clearly a typo, left alone.
+  - `text-ttop` (1 file) vs `text-top` (7 files) — neither name is defined in the
+    site or USWDS CSS, so there is no clear intended class; left alone.
