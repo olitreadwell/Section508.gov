@@ -943,7 +943,7 @@ These terms appear throughout our website, communications, and reports, includin
   </tr>
   <tr>
     <th scope="row" id="pwd">People with Disabilities</th>
-    <td>People or <em>persons with disabilities</em> is a general term used to refer to individuals who have a physical, congnitive, or sensory impairment that, in interaction with various barriers, may hinder their full and effective participation in society on an equal basis with others.</td>
+    <td>People or <em>persons with disabilities</em> is a general term used to refer to individuals who have a physical, cognitive, or sensory impairment that, in interaction with various barriers, may hinder their full and effective participation in society on an equal basis with others.</td>
   </tr>
   <tr>
     <th scope="row" id="performance-plans">Performance Plans</th>

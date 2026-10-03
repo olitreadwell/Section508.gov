@@ -409,7 +409,7 @@ exclude-changelog: true
 
 <!-- UPCOMING GSA EFFORTS TO SUPPORT SECTION 508 COMPLIANCE -->
 <h2 id="upcoming-gsa-efforts-to-support-section-508-compliance">Upcoming GSA Efforts to Support Section 508 Compliance</h2>
-The following describes upcoming GSA efforts to help improve federal ICT accessiblity.
+The following describes upcoming GSA efforts to help improve federal ICT accessibility.
 <h3 id="upcoming-governmentwide-assessment-related-actions">Governmentwide Assessment-Related Actions</h3>
 <ul class="usa-icon-list maxw-full">
   <li class="usa-icon-list__item">
