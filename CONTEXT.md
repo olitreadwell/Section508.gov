@@ -1,5 +1,5 @@
 # GSA/Section508.gov context
-> refreshed 2026-10-03 | upstream default: main @ 05866314
+> refreshed 2026-10-11 | upstream default: main @ 05866314
 
 ## Identity & policies
 - upstream: GSA/Section508.gov, default branch `main`, primary language JavaScript
@@ -48,8 +48,9 @@
   version PRs (security updates still flow), stale dependency backlog kept small.
 
 ## Issue-area health
-- open issues: 0 (as of 2026-10-03). Upstream open PRs: 4 (#1501, #1498, #1483
-  dependabot bumps; #1500 drewnielson content). Fork open PRs: #6, #30, #31.
+- open issues: 0 (as of 2026-10-11). Upstream open PRs: 6 (#1504, #1503, #1501,
+  #1498, #1483 dependabot bumps; #1500 drewnielson content). Fork open PRs: #6,
+  #30, #32 (fork #31 was closed 2026-10-03).
 - no contested/redesign signal: quiet repo, maintainers merge small fixes fast.
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
@@ -100,6 +101,30 @@
   sit inside a `{% comment %}`/`{% endcomment %}` block (lines 43-201), so they
   are NOT rendered/user-facing and were deliberately left alone — check for
   Liquid comment blocks before treating source content as user-facing.
+- `2026-10-11` self-found — packed trivial-fix pass round 3 (ANY repo type,
+  engine/loop-trivial.sh). 11 meaning-preserving corrections across 10 files
+  (<= max_files_per_trivial_pr 10): `_bios_iaaf/larrimore-laura.md` "Unviersity",
+  `_bios_iaaf/mcgowan-brianna.md` "Accessibilty",
+  `_bios_iaaf/dearie-jessica.md` "and and",
+  `_data/sidenav.yaml` "Low Maturity Maturity" (x2 nav labels),
+  `_events/2024-07-18-jul-usab-webinar.md` "in in",
+  `_pages/develop/2018-05-21-create-web-content.md` "Programing",
+  `_pages/develop/2025-09-10-design-sample-personas.md` " upport" (leading space),
+  `_pages/manage/2018-05-29-laws-policies-state.md` "the the",
+  `_pages/manage/annual-assessment/2023-report/2023-gsa-efforts-recent.md` "to to",
+  and one dead link fixed in
+  `_posts/2017-12-13-blog-Universal-Design-What-is-it.md`
+  (`http://universaldesign.ie/What-is-Universal-Design/` 404 ->
+  `https://universaldesign.ie/about-universal-design` 200, same page, matches the
+  sibling URLs already used in the same post). Outcome: pr-opened
+  https://github.com/olitreadwell/Section508.gov/pull/32 (fork PR #32, branch
+  `fix/content-typos-pass-3`, base `main`, 1 commit `5f865b16`, +11/-11, fork CI
+  Content Library Validation green, mergeStateStatus CLEAN, non-draft). No file
+  overlap with open fork PRs #6/#30. Lesson: after two packed passes the
+  remaining genuine user-facing typos still number >= 3; the codespell + doubled
+  -word + live-URL sweep over `_pages`/`_posts`/`_events`/`_bios_iaaf`/`_data` is a
+  reliable cheap re-check each cycle. comment-only and English-variant hits were
+  deliberately skipped per trivial_fix_rules.
 
 ## Mined gaps (discovered, not yet attempted)
 - `2026-09-30` typo sweep (codespell over the repo) found ~40 genuine
@@ -119,22 +144,29 @@
   returned 404. Almost all are expired Zoom/event registration URLs on event
   pages (e.g. `gsa.zoomgov.com/meeting/register/...`) where updating the link
   would change event meaning, or old gov-hosted PDFs with no verified
-  replacement. No meaning-preserving trivial link fix found this cycle.
-  Candidate to re-check: `http://universaldesign.ie/What-is-Universal-Design/`
-  (404) — needs a verified replacement URL before touching.
+  replacement. The one candidate that had a verified replacement
+  (`http://universaldesign.ie/What-is-Universal-Design/` 404 ->
+  `https://universaldesign.ie/about-universal-design` 200, same page) shipped in
+  fork PR #32; the remaining ~50 dead links are still expired
+  Zoom/event-registration URLs or unreplaceable gov PDFs — no meaning-preserving
+  fix.
 - `2026-10-02` remaining after PR #30 (verified present at upstream main
-  `10a30545`), still available for a later pass:
-  - user-facing: `_bios_iaaf/larrimore-laura.md` "Unviersity";
-    `_bios_iaaf/mcgowan-brianna.md` "Accessibilty";
-    `_pages/develop/2018-05-21-create-web-content.md` "Programing";
-    `_pages/develop/2025-09-10-design-sample-personas.md` " upport" (line has
-    pre-existing trailing space); `_pages/training/2018-05-22-training-presentation-workshops.md`
-    "Asessment" (href filename must stay); `_pages/manage/2018-05-29-laws-policies-state.md`
-    and `laws-policies-quick-reference-guide.md` "the the"; `_events/2024-07-18-jul-usab-webinar.md`
-    "in in"; `_bios_iaaf/dearie-jessica.md` "and and";
+  `10a30545`). The following were fixed in fork PR #32 (2026-10-11) and are no
+  longer available: `_bios_iaaf/larrimore-laura.md` "Unviersity";
+  `_bios_iaaf/mcgowan-brianna.md` "Accessibilty";
+  `_bios_iaaf/dearie-jessica.md` "and and";
+  `_pages/develop/2018-05-21-create-web-content.md` "Programing";
+  `_pages/develop/2025-09-10-design-sample-personas.md` " upport";
+  `_pages/manage/2018-05-29-laws-policies-state.md` "the the";
+  `_events/2024-07-18-jul-usab-webinar.md` "in in";
+  `_pages/manage/annual-assessment/2023-report/2023-gsa-efforts-recent.md` "to to".
+  Still available for a later pass (all re-verified present at upstream main
+  `05866314` on 2026-10-11):
+  - `_pages/training/2018-05-22-training-presentation-workshops.md`
+    "Asessment" (href filename must stay);
+    `_pages/manage/2018-05-29-laws-policies-quick-reference-guide.md` "the the";
     `_posts/2023-05-18-blog-2023-Accessibility-Policy-Framework.md` "thier";
     `_posts/2024-05-14-byte-000.md` "reenforcing";
-    `_pages/manage/annual-assessment/2023-report/2023-gsa-efforts-recent.md` "to to";
     `src/assets/form-config/test.config.json` and
     `art-checkbox-group.component.spec.ts` "leas" (test fixtures).
   - comment-only (not user-facing, skip per trivial_fix_rules):
