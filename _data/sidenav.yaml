@@ -743,7 +743,7 @@ report2023:
             url: 'manage/section-508-assessment/2023/findings/category-overview/' 
           - name: Very Low Maturity Categories
             url: 'manage/section-508-assessment/2023/findings/category-very-low/'
-          - name: Low Maturity Maturity Categories
+          - name: Low Maturity Categories
             url: 'manage/section-508-assessment/2023/findings/category-low/'
           - name: Moderate Maturity Categories
             url: 'manage/section-508-assessment/2023/findings/category-moderate/'
@@ -823,7 +823,7 @@ report2024:
             url: 'manage/section-508-assessment/2024/findings/category-overview/' 
           - name: Very Low Maturity Categories
             url: 'manage/section-508-assessment/2024/findings/category-very-low/'
-          - name: Low Maturity Maturity Categories
+          - name: Low Maturity Categories
             url: 'manage/section-508-assessment/2024/findings/category-low/'
           - name: Moderate Maturity Categories
             url: 'manage/section-508-assessment/2024/findings/category-moderate/'

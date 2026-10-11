@@ -50,7 +50,7 @@ Government Code Section 11135 prohibits discrimination on the basis of sex, race
 <a href="https://leg.colorado.gov/bills/hb21-1110" target="_blank" class="usa-link--external">Colorado Laws For Persons With Disabilities</a> The act (HB21-1110) adds language to strengthen current Colorado law related to protections against discrimination on the basis of disability for persons with disabilities, specifically as those laws relate to accessibility to government information technology. 
 
 ## Connecticut
-<a href="http://www.access.state.ct.us/policies/accesspolicy40.html" target="_blank" class="usa-link--external">State of Connecticut Universal Web Site Accessibility Policy for State Web Sites</a> This policy provides a set of established guidelines adopted by the the State of Connecticut and a checklist of design requirements which provides a quick reference for numerous design issues.
+<a href="http://www.access.state.ct.us/policies/accesspolicy40.html" target="_blank" class="usa-link--external">State of Connecticut Universal Web Site Accessibility Policy for State Web Sites</a> This policy provides a set of established guidelines adopted by the State of Connecticut and a checklist of design requirements which provides a quick reference for numerous design issues.
 
 <p id="I" name="I"></p>
 
