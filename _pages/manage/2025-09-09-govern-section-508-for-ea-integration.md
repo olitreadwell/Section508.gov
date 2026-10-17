@@ -129,7 +129,7 @@ If ICT accessibility is not integrated at the architectural level, compliance be
           <li>Ensure Section 508 conformance of two-factor authentication, password resets, and login flows.</li>
           <li>Ensure Section 508 conformant CAPTCHAs or alternatives are implemented.</li>
           <li>Integrate Section 508 conformance checks in security control reviews and ATOs.</li>
-          <li>IInclude Section 508 risks in Plan of Action and Milestones (POA&M), if applicable.</li>
+          <li>Include Section 508 risks in Plan of Action and Milestones (POA&M), if applicable.</li>
           <li>Consider Section 508 conformance in zero trust, identity and access management, and endpoint security tools.</li>
           <li>Track non-conformant security features in a central risk database and require remediation plans.</li>
           <li>Document Section 508 requirements in security architecture principles, Information System Security Plans (ISSPs), and technical standards and security configuration baselines.</li>

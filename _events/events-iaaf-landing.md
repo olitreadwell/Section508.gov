@@ -128,7 +128,7 @@ Attending the 2026 IAAF virtually gives you access to all open sessions on Thurs
   </div>
   <h3 class="usa-accordion__heading">
     <button id="travel" type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="m-b1"
-    >Traveling to GSA Headquaters Building</button>
+    >Traveling to GSA Headquarters Building</button>
   </h3>
   <div id="m-b1" class="usa-accordion__content">
     <p>Travel to 1800 F St NW, Washington, D.C. (General Services Administration Headquarters Building) is recommended via Metro, with Foggy Bottom–GWU and Farragut West as the nearest stations. The site is also accessible by walking, WMATA transit, or ride-share. Parking is limited and typically costs approximately $14–$25 or more in nearby garages.</p>

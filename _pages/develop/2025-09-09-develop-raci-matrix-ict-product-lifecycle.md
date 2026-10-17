@@ -4,7 +4,7 @@ sidenav: true
 type: develop
 title: RACI Matrix for ICT Accessibility Integration Across the Product Lifecycle 
 permalink: develop/raci-matrix-for-ict-accessibility-product-lifecycle/
-description: This RACI Matrix maps tasks or activties for ICT accessibility integration across the product lifecycle.
+description: This RACI Matrix maps tasks or activities for ICT accessibility integration across the product lifecycle.
 disclaimer:
 audience: 
 - Section 508 Program Managers

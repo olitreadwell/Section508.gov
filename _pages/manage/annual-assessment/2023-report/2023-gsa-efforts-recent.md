@@ -79,7 +79,7 @@ A refresh in this guidance, issued 10 years ago, will incorporate the present ac
 
 * Reduced time to complete a procurement flow by 50%.
 
-* Ability to to save a completed form or review in multiple formats.
+* Ability to save a completed form or review in multiple formats.
 
 * Ability to work on multiple ICTs at once.
 
