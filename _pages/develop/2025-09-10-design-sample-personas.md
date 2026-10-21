@@ -134,7 +134,7 @@ When possible, variations should include:
 <li>Salary</li> 
 <li>Own or rent</li>
 <li>Comfort with technology</li> 
-<li> upport type such as family, spouse, single, or aide</li> 
+<li>Support type such as family, spouse, single, or aide</li> 
 <li>Language spoken at home</li>
 </ul>
 </p>

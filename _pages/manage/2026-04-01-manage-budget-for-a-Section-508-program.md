@@ -4,7 +4,7 @@ sidenav: true
 type: manage
 title: Developing a Budget for a Section 508 Program
 permalink: manage/developing-a-budget-for-a-section-508-program/
-description: Learn how to think through the different aspects of ICT accessibility support throughout the enterprise and determine a budget for a Section 508 program that intends to provice that support.
+description: Learn how to think through the different aspects of ICT accessibility support throughout the enterprise and determine a budget for a Section 508 program that intends to provide that support.
 custom-script: accordion-management.js
 disclaimer: 
 audience: 

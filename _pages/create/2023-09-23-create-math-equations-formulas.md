@@ -45,7 +45,7 @@ Unicode is an information technology standard used in the programming and handli
 If you are on a PC, the Unicode Character Map is called Character Map. To access this reference, type “Character Map” in the Search field on your taskbar. The Character Map application should be listed at the top of the results. Click on the application and the Character Map window will pop-up (Figure 2).
 
 <div class="tablet:grid-col" style="margin: auto; max-width: 90%; text-align: center; padding: 10px 0px">
-    <div class="margin-top-1"><img src="{{site.baseurl}}/assets/images/create-math-equations-charmap.jpg" alt="Charcter Map" aria-describedby="figure-2" class="border-2px border-base-light shadow-2 padding-1"></div>
+    <div class="margin-top-1"><img src="{{site.baseurl}}/assets/images/create-math-equations-charmap.jpg" alt="Character Map" aria-describedby="figure-2" class="border-2px border-base-light shadow-2 padding-1"></div>
     <div class="font-mono-3xs margin-x-auto auto" style="max-width: 90%; text-align: center;"><span id="figure-2">Figure 2—Screenshot of the Character Map application window for PC computers.</span></div>
 </div>
 
@@ -308,7 +308,7 @@ All creation and editing of equations is done using the Rapid Mathline. When you
 All the basic operations will take place in this field. Even though the current view of the equation is linearized, the strength of this program happens when the line of text is converted to a mathematical representation. Once you feel your equation is ready, select the OK button and the text will be rendered in the main part of the screen as a visual representation (Figure 6). Just double-click your equation to take you back to edit mode and the Rapid Mathline.
 
 <div class="tablet:grid-col" style="margin: auto; max-width: 90%; text-align: center; padding: 10px 0px">
-    <div class="margin-top-1"><img src="{{site.baseurl}}/assets/images/create-math-equations-mathcast02.jpg" alt="Rapid Mathline generted expression" aria-describedby="figure-6" class="border-2px border-base-light shadow-2 padding-1"></div>
+    <div class="margin-top-1"><img src="{{site.baseurl}}/assets/images/create-math-equations-mathcast02.jpg" alt="Rapid Mathline generated expression" aria-describedby="figure-6" class="border-2px border-base-light shadow-2 padding-1"></div>
     <div class="font-mono-3xs margin-x-auto auto" style="max-width: 90%; text-align: center;"><span id="figure-6">Figure 6—Screenshot of mathematical expression generated from the Rapid Mathline.</span></div>
 </div>
 
