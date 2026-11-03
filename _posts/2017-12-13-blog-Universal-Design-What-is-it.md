@@ -22,7 +22,7 @@ resource-type:
 - Blog
 format: HTML
 created: 2017-12-14
-updated: 2026-07-10
+updated: 2026-10-21
 exclude-changelog: true
 ---
 
