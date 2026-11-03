@@ -29,7 +29,7 @@ During the last week of January we rolled out new features to improve the user e
 If you have not already used the updated ART, you will find the following enhancements over the past year:
 
 * Reduced time to complete a procurement flow by 50%
-* Ability to to save a completed form or review in multiple formats
+* Ability to save a completed form or review in multiple formats
 * Ability to work on multiple ICTs at once
 * Ability to add ICTs while in the form
 * Ability to alter previous sections without affecting subsequent sections

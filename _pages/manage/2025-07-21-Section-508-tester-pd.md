@@ -4483,6 +4483,30 @@ For each role, you will find:
 
 <div id="accordion-group-a" class="usa-accordion usa-accordion--multiselectable usa-accordion--bordered" data-allow-multiple>
   <h2 class="usa-accordion__heading">
+    <button id="accessibility-tester" type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="508-tester">
+      Section 508 Accessibility Tester
+    </button>
+  </h2>
+  <div id="508-tester" class="usa-accordion__content">
+    <p><strong>PD Tracking Number:</strong> 00AB000<br>
+    <strong>Series, Title and Grade:</strong> [Insert Series, Title and Grade]<br>
+    <strong>Position Title:</strong> Section 508 Accessibility Tester<br>
+    <strong>Department:</strong> [Insert Agency/Office Name], [Insert Location or Remote]<br>
+    <strong>Position Type:</strong> [Specify full time or part time]<br>
+    <strong>Security Clearance:</strong> [Specify if required]</p>
+    <h3>Position Description</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Write a high-level overview of the position and key responsibilities and qualifications.</p>
+    </div>
+    <p>This position is located within the [Agency], [Office Name], [Division Name]. The incumbent serves as a Section 508 Accessibility Tester and consultant to senior level management and staff and is responsible for ensuring that digital products, services, and electronic content developed, procured, or maintained by [Agency Name] comply with the <a href="https://www.access-board.gov/ict/" target="_blank" class="usa-link--external">Section 508 Standards</a>. This individual will support information and communication technology (ICT) Section 508 conformance validation testing, defect reporting, remediation planning and guidance, and training efforts across the agency's enterprise.</p>
+    <h3>Salaries & Wages</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Consider and establish the position's pay grade at a level that reflects the role and responsibilities required of the position in accordance with best practices, applicable standards, and regulations.</p>
+    </div>
+    <h3>Major Duties</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Consider and select the key responsibilities for the position you are developing per agency requirements.</p>
+    </div>
       <button id="section-508-sme" type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="a12">Section 508 Subject Matter Expert (IT Specialist)</button>
 </h2>
   <div id="a12" class="usa-accordion__content">
@@ -4611,6 +4635,18 @@ For each role, you will find:
       <li>Complex document structures.</li>
       <li>Multimedia accessibility.</li>
     </ul>
+    <h3>How Will You be Evaluated</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Consider and establish the knowledge, skills, and abilities metrics for the position you are developing per agency requirements.</p>
+    </div>
+    <h3>How to Apply</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Provide instructions for individuals to apply for the position, and any information that could assist applicants in preparing their resume for a government position&mdash;such as <a href="https://www.youtube.com/watch?v=8YX7o1PBoFk" target="_blank" class="usa-link--external">Resume Writing</a> presented by USAJobs and the Office of Personnel Management (OPM).</p>
+    </div>
+    <h3>Agency Contact Information</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Insert applicable information for applicants to contact the agency's hiring official.</p>
+    </div>
   </li>
   <li>Promote consistent content practices.</li>
 </ul>
@@ -4833,6 +4869,31 @@ For each role, you will find:
 </div>
 <div id="accordion-group-a" class="usa-accordion usa-accordion--multiselectable usa-accordion--bordered" data-allow-multiple>
   <h2 class="usa-accordion__heading">
+    <button id="program-manager" type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="508-pm">
+      Section 508 Program Manager
+    </button>
+  </h2>
+  <div id="508-pm" class="usa-accordion__content">
+    <p><strong>PD Tracking Number:</strong> 00AB000<br>
+    <strong>Series, Title and Grade:</strong> [Insert Series, Title and Grade]<br>
+    <strong>Position Title:</strong> Section 508 Program Manager<br>
+    <strong>Department:</strong> [Insert Agency/Office Name]<br>
+    <strong>Position Type:</strong> [Specify full time or part time], [Insert Location or Remote]<br>
+    <strong>Security Clearance:</strong> [Specify if required]</p>
+    <h3>Position Description</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Write a high-level overview of the position and key responsibilities and qualifications.</p>
+    </div>
+    <p>This position is located within the [Agency], [Office Name], [Division Name]. The incumbent serves as the Section 508 Program Managers and consultant to senior level management and manages Section 508 Program on behalf of the agency CIO (or designee), to include developing and maintaining agency policies, guidebooks, and disseminating best practices. Through oversight of IT accessibility programs, the incumbent ensures effective planning and management of the accessibility of information and communication technology (ICT) systems in compliance with best practices, applicable standards, and regulations. For purposes of this position description, “accessibility” shall have the definition in 29 U.S.C. 794d (a) (1) and NOT that provided in the OPM Job Family Standard for [Job Series Name], [Job Series Number].</p>
+    <h3>Salaries & Wages</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Consider and establish the position's pay grade at a level that reflects the role and responsibilities required of the position in accordance with best practices, applicable standards, and regulations&mdash;including <a href=
+      "https://bidenwhitehouse.archives.gov/omb/management/ofcio/m-24-08-strengthening-digital-accessibility-and-the-management-of-section-508-of-the-rehabilitation-act/" target="_blank" class="usa-link--external">M-24-08 Strengthening Digital Accessibility and the Management of Section 508 of the Rehabilitation Act</a>.</p>
+    </div>
+    <h3>Major Duties</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Consider and select the key responsibilities for the position you are developing per agency requirements.</p>
+    </div>
       <button id="ux_ui" type="button" class="usa-accordion__button" aria-expanded="false" aria-controls="a13">User Experience (UX) or User Interface (UI) Designer</button>
 </h2>
   <div id="a13" class="usa-accordion__content">
@@ -4945,6 +5006,18 @@ For each role, you will find:
       <li>Design supports accessible content structure.</li>
       <li>Templates enable proper heading, reading order, and media use.</li>
     </ul>
+    <h3>How Will You be Evaluated</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Consider and establish the knowledge, skills, and abilities metrics for the position you are developing per agency requirements.</p>
+    </div>
+    <h3>How to Apply</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Provide instructions for individuals to apply for the position, and any information that could assist applicants in preparing their resume for a government position&mdash;such as <a href="https://www.youtube.com/watch?v=8YX7o1PBoFk" target="_blank" class="usa-link--external">Resume Writing</a> presented by USAJobs and the Office of Personnel Management (OPM).</p>
+    </div>
+    <h3>Agency Contact Information</h3>
+    <div class="border-base radius-lg border-1px padding-1 bg-primary-lighter" style="margin-top: 1.0em;">
+      <p><strong>Instructions:</strong> Insert applicable information for applicants to contact the agency's hiring official.</p>
+    </div>
   </li>
 </ul>
 </div>

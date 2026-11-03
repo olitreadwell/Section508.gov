@@ -12,7 +12,7 @@ image:
 image-alt: 
 created: 2024-07-18
 ---
-WCAG 2.0 Level AA became the web accessibility requirement under Section 508 in March of 2017. WCAG 2.1 became a finalized standard in June of 2018 and WCAG 2.2 became a finalized standard in in October 2023. The Europe Union has been using WCAG 2.1 for five years. In April 2023, DOJ published a final rule setting WCAG 2.1 as the standard under ADA for state and local governments (Title II). If your organization is using only WCAG 2.0 Level AA to audit your web properties, what accessibility features are you missing? Bruce and Rachael will explore and answer this question by reviewing the Success Criteria added in WCAG 2.1 and 2.2 as well as AAA requirements from WCAG 2.0.
+WCAG 2.0 Level AA became the web accessibility requirement under Section 508 in March of 2017. WCAG 2.1 became a finalized standard in June of 2018 and WCAG 2.2 became a finalized standard in October 2023. The Europe Union has been using WCAG 2.1 for five years. In April 2023, DOJ published a final rule setting WCAG 2.1 as the standard under ADA for state and local governments (Title II). If your organization is using only WCAG 2.0 Level AA to audit your web properties, what accessibility features are you missing? Bruce and Rachael will explore and answer this question by reviewing the Success Criteria added in WCAG 2.1 and 2.2 as well as AAA requirements from WCAG 2.0.
 
 Sign Language and Real Time Captioning will be available.
 

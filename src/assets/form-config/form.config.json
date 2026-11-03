@@ -126,7 +126,7 @@
             "hidden":true,
             "placeholder": "For example, 123 45 6789",
             "description": "",
-            "errorMessages": { "maxlength": "Select at leas one option for ICT" },
+            "errorMessages": { "maxlength": "Select at least one option for ICT" },
             "validations": [
               "required"
             ],
@@ -526,7 +526,7 @@
             "label": "<i>Programs, procedures, rules, and related data and documentation that direct the use and operation of ICT and instruct it to perform a given task or function. Software includes, but is not limited to, applications, non-Web software, and platform software.</i><br><br>(Check all that apply)",
             "placeholder": "",
             "description": "",
-            "errorMessages": { "maxlength": "You must select at leas one option for Software Purchase to proceed with the form" },
+            "errorMessages": { "maxlength": "You must select at least one option for Software Purchase to proceed with the form" },
             "validations": [ "required"],
             "next": "",
             "value": "",

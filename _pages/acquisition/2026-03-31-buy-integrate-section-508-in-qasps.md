@@ -119,7 +119,7 @@ At minimum, include Section 508 requirements in the following sections of a QASP
 </svg>
 </div>
 <div class="usa-icon-list__content">
-<strong>Performance Objectives and Standards:</strong> Defines the expected level of quality. Example langauge:
+<strong>Performance Objectives and Standards:</strong> Defines the expected level of quality. Example language:
 <div class="grid-col-8 border-base padding-1 margin-x-auto border-y text-primary" style="width:85%;">
 <em>All ICT deliverables must conform to Section 508 of the Rehabilitation Act, as implemented by the Section 508 Standards (36 C.F.R. Part 1194).</em></div>
 <div class="grid-col-12 border-base radius-lg padding-1 margin-top-2" style="border: 1px solid black; background-color: #f5f9fc; margin-bottom-3"><strong>Note:</strong> Add any additional ICT accessibility requirements for your agency beyond Section 508.</div></div>
@@ -131,7 +131,7 @@ At minimum, include Section 508 requirements in the following sections of a QASP
 </svg>
 </div>
 <div class="usa-icon-list__content">
-<strong>Performance Indicators and Acceptable Quality Levels (AQLs):</strong> Defines how much deviation is acceptable before it counts as a defect. Example langauge:
+<strong>Performance Indicators and Acceptable Quality Levels (AQLs):</strong> Defines how much deviation is acceptable before it counts as a defect. Example language:
 <div class="grid-col-8 border-base padding-1 margin-x-auto border-y text-primary" style="width:85%;">
 <em>All information and communication technology (ICT) deliverables shall meet Section 508 requirements with no accessibility defects that prevent users with disabilities from completing required tasks. Examples of minor defects may include cosmetic or low-impact issues that do not prevent users with disabilities from being able to perceive, operate, or understand the content. Major Section 508 conformance defects or repeated minor defects will result in the agency rejecting the deliverable until remediation is complete. The Government will determine the severity of accessibility defects and whether remediation is required before acceptance.</em></div>
 <div class="grid-col-12 border-base radius-lg padding-1 margin-top-2" style="border: 1px solid black; background-color: #f5f9fc;"><strong>Note:</strong> Agencies may choose to require fully conformant deliverables without leeway for minor defects. Add any additional ICT accessibility requirements for your agency beyond Section 508.</div></div>
@@ -143,7 +143,7 @@ At minimum, include Section 508 requirements in the following sections of a QASP
 </svg>
 </div>
 <div class="usa-icon-list__content">
-<strong>Surveillance Methods:</strong> Specifies how your agency will verify accessibility compliance. Example langauge:
+<strong>Surveillance Methods:</strong> Specifies how your agency will verify accessibility compliance. Example language:
 <div class="grid-col-8 border-base padding-1 margin-x-auto border-y text-primary" style="width:85%;">
 <em>The agency will evaluate Section 508 conformance using a combination of automated testing tools, manual code inspection, and assistive technology testing, where applicable. The agency will test representative samples of web pages, software screens, or documents to confirm Section 508 conformance. The Government may also  perform additional testing or require the contractor  to provide supporting accessibility test results at no additional cost.</em></div>
 <div class="grid-col-12 border-base radius-lg padding-1 margin-top-2" style="border: 1px solid black; background-color: #f5f9fc;"><strong>Note:</strong> Specify testing methodologies and tools and modify the scope of testing by ICT type, where applicable.</div></div>
@@ -155,7 +155,7 @@ At minimum, include Section 508 requirements in the following sections of a QASP
 </svg>
 </div>
 <div class="usa-icon-list__content">
-<strong>Frequency of Surveillance:</strong> Describes when Section 508 compliance reviews will occur. Example langauge:
+<strong>Frequency of Surveillance:</strong> Describes when Section 508 compliance reviews will occur. Example language:
 <div class="grid-col-8 border-base padding-1 margin-x-auto border-y text-primary" style="width:85%;">
 <em>The agency will conduct Section 508 conformance reviews at major project milestones, including design reviews, development milestones, sprint reviews (for agile projects), user acceptance testing (UAT), and prior to final acceptance of deliverables. The agency reserves the right to also perform ad hoc Section 508 conformance testing and review deliverable progress at intervals not noted.   </em></div></div>
 </li> 
@@ -166,7 +166,7 @@ At minimum, include Section 508 requirements in the following sections of a QASP
 </svg>
 </div>
 <div class="usa-icon-list__content">
-<strong>Remediation and Corrective Action:</strong> Ensures defects must be fixed and re-tested. Example langauge:
+<strong>Remediation and Corrective Action:</strong> Ensures defects must be fixed and re-tested. Example language:
 <div class="grid-col-8 border-base padding-1 margin-x-auto border-y text-primary" style="width:85%;">
 <em>The Contractor must remediate Section 508 defects identified by the agency within [10ß] business days of notification, unless otherwise approved by the Contracting Officer or COR. The agency will re-test to confirm that corrective action meets Section 508 requirements. The agency may reject the deliverable until the Contractor completes remediation and meets all Section 508 standards. Remediation will occur at no additional cost to the agency. </em></div>
 <div class="grid-col-12 border-base radius-lg padding-1 margin-top-2" style="border: 1px solid black; background-color: #f5f9fc;"><strong>Note:</strong> Modify the timeframe of remediation as needed. Use <a href="{{site.baseurl}}/tools/glossary/#cure-notice">cure notices</a> when applicable.</div></div>
@@ -178,7 +178,7 @@ At minimum, include Section 508 requirements in the following sections of a QASP
 </svg>
 </div>
 <div class="usa-icon-list__content">
-<strong>Roles and Responsibilities:</strong> Clarifies who checks Section 508 conformance and who fixes issues. Example langauge:
+<strong>Roles and Responsibilities:</strong> Clarifies who checks Section 508 conformance and who fixes issues. Example language:
 <div class="grid-col-8 border-base padding-1 margin-x-auto border-y text-primary" style="width:85%;">
 <em>The Contractor is responsible for ensuring deliverables conform to Section 508 requirements. The agency will perform surveillance and may engage third-party testers. Contractors must provide supporting documentation, such as a completed <a href="{{ site.baseurl }}/sell/acr/">Accessibility Conformance Report (ACR)</a> or <a href="{{ site.baseurl }}/test/elements-of-an-accessibility-test-report/">test report</a>, to demonstrate conformance. At a minimum, the documentation must include results for all applicable Section 508 standards, cover all major features,  functions, and product workflows, and clearly describe the testing methodologies and tools used. </em></div>
 <div class="grid-col-12 border-base radius-lg padding-1 margin-top-2" style="border: 1px solid black; background-color: #f5f9fc;"><strong>Note:</strong> Modify the supporting documentation requirements as needed.</div></div>

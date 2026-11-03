@@ -111,7 +111,7 @@ Use this structured questionnaire process to recruit people with disabilities (P
       <ul>
         <li><strong>Open ended questions</strong> such as: 
           <ul>
-            <li>Do you have a disability? If yes, and you feel confortable sharing, please describe.</li>
+            <li>Do you have a disability? If yes, and you feel comfortable sharing, please describe.</li>
           </ul>
         </li>
         <li><strong>"Select all that apply" questions</strong> such as: 

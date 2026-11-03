@@ -5,7 +5,7 @@ type: article
 title: 'May 19th is 2022 Global Accessibility Awareness Day (GAAD)'
 created: May 10, 2022
 tags: Events
-description: May 19, 2022 marks this year's Global Accessibility Awareness Day (GAAD). Events are occuring throughout the month of May. Visit accessibility.day to find out what events you may be interested in.
+description: May 19, 2022 marks this year's Global Accessibility Awareness Day (GAAD). Events are occurring throughout the month of May. Visit accessibility.day to find out what events you may be interested in.
 topic: "Events"
 sub-topic: "Training"
 audience:
@@ -15,7 +15,7 @@ audience:
 resource-type: "Blog"
 format: "HTML"
 ---
-May 19, 2022 marks the 11th annual Global Accessibility Awareness Day (GAAD). Accessibility-related events are occuring throughout the month of May. Visit [accessibility.day](https://accessibility.day) to find out which events you may be interested in.
+May 19, 2022 marks the 11th annual Global Accessibility Awareness Day (GAAD). Accessibility-related events are occurring throughout the month of May. Visit [accessibility.day](https://accessibility.day) to find out which events you may be interested in.
 
 Additionally, visit the IT Accessility Team at [section508.gov](https://www.section508.gov) to learn more about digital accessibility in the federal government.
 
